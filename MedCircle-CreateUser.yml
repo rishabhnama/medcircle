@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Create IAM users
+
+Resources:
+  User1:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: Patient1
+
+  User2:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: Patient2
+
+  User3:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: Patient3
+
+  User4:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: Patient4    
+
+  User5:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: Patient5
+
+  User6:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: Patient6    
